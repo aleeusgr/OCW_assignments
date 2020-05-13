@@ -1,0 +1,8 @@
+#!/bin/bash
+
+cp /home/alex/HDD/workshop/study_material/60001/assignments_60001.ipynb /home/alex/HDD/workshop/OCW_assignments/60001.ipynb
+cp /home/alex/HDD/workshop/study_material/Linear_Algebra/1806SC/1806SC_assignments.ipynb /home/alex/HDD/workshop/OCW_assignments/1806SC.ipynb
+
+git add /home/alex/HDD/workshop/OCW_assignments/.
+git commit
+git push origin master
